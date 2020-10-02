@@ -8,6 +8,7 @@ char et[10][20]={"00_A8_00_40_8E_FS","00_16_17_31_8e_22","00_16_17_31_8E_F7","00
 char ipaddr[20],etaddr[20];
 int i,op;
 int x=0,y=0;
+clrscr();
 while(1)
 {
 printf("\n\n 1.ARP 2.RARP 3.EXIT");
@@ -44,5 +45,5 @@ printf("Invalid ethernet address");
 y=0;
 break;
 case 3:
-break;
+exit(0);
 } } }
